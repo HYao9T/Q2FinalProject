@@ -1,0 +1,122 @@
+
+#logo {
+    width: 50px;
+}
+
+#navbar{
+	color: white;
+	background-color: white;
+}
+
+#page2{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 800px;
+	heigth:auto;
+	padding: 8px;
+	border: solid black 2px;
+	border-radius: 9px;
+	color: white;
+}
+
+#page1{
+	width: 600px;
+	border: solid white 2px;
+	border-radius: 9px;
+}
+
+
+.card {
+    height: 100%;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card button {
+    position:absolute;
+	center: 0;
+    bottom: 0;
+    justify-content: center;
+    background-color: green;
+    width: 90%;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card button:hover {
+    background-color: whitesmoke;
+    color: white;
+
+}
+
+.card button a{
+	color: white;
+	text-decoration: none;
+}
+
+.card button a:hover{
+	color: black;
+}
+
+span{
+	color:white;
+	text-decoration:unsets;
+	background-color: orange;
+	padding: 10px;
+}
+
+#page4{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 800px;
+	heigth:auto;
+	padding: 8px;
+	border: solid black 2px;
+	border-radius: 9px;
+	color: white;
+	text-align: center;
+	margin-left: 20%;
+}
+
+h1{
+	color: orange;
+	text-align: center;
+}
+
+body {
+    margin-bottom: 5%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/403/877/non_2x/table-scene-with-a-selection-of-delicious-foods-top-view-over-a-dark-wood-banner-background-generate-ai-free-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    font-family: helvetica;
+	}
+
+.footer{
+	background: #151826;
+	background: linear-gradient(0deg,#151826 0%, rgba(224,166,76,0.15) 80%);
+	background: -webkit-linear-gradient(0deg,#151826 0%, rgba(224,166,76,0.15) 80%);
+	background: -moz-linear-gradient(0deg,#151826 0%, rgba(224,166,76,0.15) 80%);background-color: orange;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	color: whitesmoke;
+	align-content: center;
+}
+
+
+.foooter p{
+	align-content: center;
+}
