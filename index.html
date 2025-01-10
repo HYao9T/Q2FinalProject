@@ -34,23 +34,23 @@
 
 		    		<!-- PAGE1: HOMEPAGE -->
 				 	<li class="nav-item">
-				        <a class="nav-link active" data-bs-toggle="pill" href="#page1">Homepage</a>
+				        <a class="nav-link active" data-bs-toggle="pill" href="#page1"><strong>Homepage</strong></a>
 		       		 </li>
 
 		       		 <li class="nav-item">
-				        <a class="nav-link" data-bs-toggle="pill" href="#page2">about</a>
+				        <a class="nav-link" data-bs-toggle="pill" href="#page2"><strong>About</strong></a>
 		       		 </li>
 
 
 			    	<!-- PAGE2: RECIPE CATEGORY (DROPDOWN) -->
 			        <li class="nav-item">
-			        	<a class="nav-link" data-bs-toggle="pill" href="#page3">Recipes</a>
+			        	<a class="nav-link" data-bs-toggle="pill" href="#page3"><strong>Recipes</strong></a>
 		      		</li>
 
 
 		      		<!-- PAGE4: RECIPES SUBMISSION (FORM CONTROL)-->
 			        <li class="nav-item">
-			        	<a class="nav-link" data-bs-toggle="pill" href="#page4">Submit Recipes</a>
+			        	<a class="nav-link" data-bs-toggle="pill" href="#page4"><strong>Submit a Recipe !</strong></a>
 		      		</li>
 			     </ul>
 			</div>
@@ -228,10 +228,12 @@
 		 <div class="tab-pane container fade mt-3" id="page4">
             <h1><b>Share a Recipe!</b></h1>
             <form>
+                <label for="name">Recipe Name:</label><br>
+                <input type="text" class="form-control" placeholder="recipe name" >
                 <label for="ingredients">Ingredients list:</label><br>
-                <textarea name="ingredients" rows="5" cols="60" placeholder="Share your ingredients here"></textarea><br>
+                <textarea name="ingredients" rows="5" cols="60" placeholder="Share your ingredients here" class="form-control"></textarea><br>
                 <label for="instructions">Instructions:</label><br>
-                <textarea name="instructions" rows="5" cols="60" placeholder="Share your instructions here"></textarea><br>
+                <textarea name="instructions" rows="5" cols="60" placeholder="Share your instructions here" class="form-control"></textarea><br>
                 <button type="submit" class="btn btn-outline-warning mt-3">Cook Recipe!</button>
             </form>
         </div>
